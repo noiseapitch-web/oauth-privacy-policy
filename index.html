@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>개인정보처리방침 · 이용약관 — Noise&amp;Pitch Creator Growth Platform</title>
+<style>
+  body { font-family: -apple-system, "Malgun Gothic", "Apple SD Gothic Neo", sans-serif; max-width: 780px; margin: 40px auto; padding: 0 20px; line-height: 1.7; color: #222; }
+  h1 { font-size: 1.6em; border-bottom: 2px solid #333; padding-bottom: 10px; }
+  h2 { font-size: 1.2em; margin-top: 2em; color: #111; }
+  h3 { font-size: 1.05em; margin-top: 1.4em; }
+  .updated { color: #666; font-size: 0.9em; margin-bottom: 2em; }
+  .lang-block { margin-bottom: 3em; padding-bottom: 2em; border-bottom: 1px dashed #ccc; }
+  ul { padding-left: 1.4em; }
+  code { background: #f4f4f4; padding: 1px 5px; border-radius: 3px; }
+  .contact { background: #f7f7f7; padding: 14px 18px; border-radius: 6px; }
+</style>
+</head>
+<body>
+
+<div class="lang-block">
+<h1>개인정보처리방침 · 이용약관</h1>
+<p class="updated">최종 수정일: 2026-09-16</p>
+
+<p><strong>Noise&amp;Pitch</strong>(이하 "회사")는 소속 크리에이터를 위한 콘텐츠 제작·배포 사내 플랫폼("Noise&amp;Pitch Creator Growth Platform", 이하 "플랫폼")을 운영합니다. 본 방침은 플랫폼이 Google/YouTube 계정을 통해 접근하는 정보를 어떻게 수집·이용·보관·삭제하는지 설명합니다.</p>
+
+<h2>1. 플랫폼이 하는 일</h2>
+<p>플랫폼은 회사가 매니지먼트 계약을 맺은 크리에이터의 롱폼 영상을 세로형 쇼츠로 재편집하여, 해당 크리에이터가 소유하고 OAuth로 직접 연결한 YouTube 채널에 게시합니다. 외부에 공개된 서비스가 아니며, 일반 사용자의 가입을 받지 않고 회사 직원만 운영합니다.</p>
+
+<h2>2. Google 계정으로 접근하는 정보와 목적</h2>
+<p>채널 소유자가 Google 로그인 동의 화면에서 아래 권한을 직접 승인한 채널에 한해서만 접근합니다.</p>
+<ul>
+  <li><code>youtube.upload</code> — 제작된 쇼츠 영상을 해당 채널에 업로드하기 위해 사용</li>
+  <li><code>youtube.readonly</code> — 연결 시 채널명·프로필 사진을 확인하고, 업로드 처리 상태를 확인하기 위해 사용</li>
+  <li><code>youtube.force-ssl</code> — 업로드된 영상의 공개 상태 전환·썸네일 적용 등 채널 관리 작업을 위해 사용</li>
+</ul>
+<p>이 권한들은 오직 <strong>채널 소유자 본인이 동의한 채널</strong>에 대해서만, 그 채널에 콘텐츠를 게시·관리하는 목적으로만 사용되며, 다른 목적(광고, 프로파일링, 제3자 제공 등)으로 사용되지 않습니다.</p>
+
+<h2>3. 저장 및 보안</h2>
+<ul>
+  <li>채널 연결에 필요한 Google refresh token은 <strong>AES-256-GCM으로 암호화</strong>되어 회사 소유 서버에만 저장됩니다.</li>
+  <li>Google 계정 비밀번호는 저장하지 않으며, 브라우저 자동화나 쿠키 추출 등 정식 OAuth 절차를 우회하는 방식은 사용하지 않습니다.</li>
+  <li>수집한 데이터는 제3자와 공유하거나 판매하지 않습니다.</li>
+</ul>
+
+<h2>4. 보관 기간 및 삭제</h2>
+<ul>
+  <li>채널 연결은 채널 소유자가 언제든지 (a) 플랫폼 내 채널 연결 해제 기능, 또는 (b) Google 계정의 <a href="https://myaccount.google.com/permissions" target="_blank" rel="noopener">타사 앱 및 서비스 액세스 권한</a> 페이지에서 직접 해제할 수 있습니다.</li>
+  <li>연결 해제 시 저장된 refresh token은 즉시 폐기됩니다.</li>
+  <li>YouTube API를 통해 수집한 댓글 등 데이터 중 콘텐츠 제작에 사용되지 않은 항목은 30일 이내 삭제하며, 사용된 항목은 제작 기록으로 보관하되 API를 통해 주기적으로 최신 상태로 갱신합니다.</li>
+  <li>삭제 요청은 아래 연락처로 문의하면 지체 없이 처리합니다.</li>
+</ul>
+
+<h2>5. Google API 서비스 사용자 데이터 정책 준수</h2>
+<p>본 플랫폼의 Google 사용자 데이터 사용은 <a href="https://developers.google.com/terms/api-services-user-data-policy" target="_blank" rel="noopener">Google API Services User Data Policy</a>(Limited Use 요건 포함)를 준수합니다. Google 사용자 데이터는 본 방침에 명시된 기능 제공 목적으로만 사용되며, 광고 목적으로 사용되지 않고, 사람에 의한 열람은 보안·법적 요구·사용자 동의가 있는 경우로 제한됩니다.</p>
+
+<h2>6. 문의</h2>
+<div class="contact">
+  <p>개인정보 관련 문의 및 삭제 요청: <strong>noiseapitch@gmail.com</strong></p>
+</div>
+</div>
+
+<div class="lang-block">
+<h1>Privacy Policy &amp; Terms of Use</h1>
+<p class="updated">Last updated: 2026-09-16</p>
+
+<p><strong>Noise&amp;Pitch</strong> ("we", "the Company") operates an internal content production and distribution platform ("Noise&amp;Pitch Creator Growth Platform", "the Platform") for creators under our management contracts. This policy explains how the Platform collects, uses, retains, and deletes information it accesses through connected Google/YouTube accounts.</p>
+
+<h2>1. What the Platform does</h2>
+<p>The Platform repurposes long-form video belonging to creators we represent into vertical short clips and publishes them to YouTube channels that those creators own and have connected themselves via OAuth. The Platform is not offered to the public — there is no public sign-up, and it is operated only by our staff.</p>
+
+<h2>2. Google data we access and why</h2>
+<p>We only access a channel after its owner has explicitly granted the scopes below through Google's consent screen.</p>
+<ul>
+  <li><code>youtube.upload</code> — to publish produced short clips to that channel</li>
+  <li><code>youtube.readonly</code> — to read the channel name/thumbnail at connection time and confirm upload processing status</li>
+  <li><code>youtube.force-ssl</code> — to manage published videos (e.g. changing privacy status, setting thumbnails) on that same channel</li>
+</ul>
+<p>These scopes are used solely to publish and manage content on the channel its owner authorized — never for advertising, profiling, or sharing with third parties.</p>
+
+<h2>3. Storage and security</h2>
+<ul>
+  <li>Refresh tokens are encrypted at rest with <strong>AES-256-GCM</strong> and stored only on company-owned servers.</li>
+  <li>We never store Google account passwords, and we do not use browser automation, cookie extraction, or any method that bypasses the standard OAuth flow.</li>
+  <li>Data is never shared with or sold to third parties.</li>
+</ul>
+
+<h2>4. Retention and deletion</h2>
+<ul>
+  <li>A channel owner can revoke access at any time, either (a) via the Platform's own "disconnect channel" feature, or (b) directly from Google's <a href="https://myaccount.google.com/permissions" target="_blank" rel="noopener">Third-party apps &amp; services</a> page.</li>
+  <li>Revoking access immediately discards the stored refresh token.</li>
+  <li>Comment data retrieved via the YouTube API that is not used in a produced video is deleted within 30 days; data used in a published video is retained as a production record and refreshed via the API within the same 30-day window.</li>
+  <li>Deletion requests are handled promptly upon contact below.</li>
+</ul>
+
+<h2>5. Compliance with the Google API Services User Data Policy</h2>
+<p>The Platform's use of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy" target="_blank" rel="noopener">Google API Services User Data Policy</a>, including the Limited Use requirements. Google user data is used only to provide the functionality described in this policy, is never used for advertising, and human access is restricted to cases required for security, legal compliance, or with user consent.</p>
+
+<h2>6. Contact</h2>
+<div class="contact">
+  <p>For privacy questions or data-deletion requests: <strong>noiseapitch@gmail.com</strong></p>
+</div>
+</div>
+
+</body>
+</html>
